@@ -12,8 +12,6 @@
   </pattern>
   <rect width="1200" height="300" fill="url(#grid-l)"/>
 
-  <!-- Logo circle -->
-  <circle cx="530" cy="150" r="32" stroke="#0e7490" stroke-width="2" stroke-opacity="0.4"/>
   <defs>
     <radialGradient id="logoGrad-l" cx="50%" cy="40%">
       <stop offset="0%" stop-color="#22d3ee"/>
@@ -23,9 +21,12 @@
       <feGaussianBlur stdDeviation="80"/>
     </filter>
   </defs>
+
+  <!-- Logo (matches logo.tsx at 3× scale) -->
+  <circle cx="530" cy="150" r="31.5" stroke="#0f172a" stroke-width="4.5"/>
   <circle cx="530" cy="150" r="21" fill="url(#logoGrad-l)"/>
-  <circle cx="530" cy="150" r="11" stroke="#0e7490" stroke-width="0.7" stroke-opacity="0.2" fill="none"/>
-  <circle cx="525" cy="145" r="4.5" fill="white" opacity="0.7"/>
+  <circle cx="530" cy="150" r="10.5" stroke="#0f172a" stroke-width="3" stroke-opacity="0.3" fill="none"/>
+  <circle cx="524" cy="144" r="4.5" fill="white" opacity="0.7"/>
 
   <!-- Text -->
   <text x="575" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#0f172a" letter-spacing="-0.5">PeekAPI</text>
