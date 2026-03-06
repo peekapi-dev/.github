@@ -1,0 +1,32 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="300" fill="#f8fafc"/>
+
+  <!-- Gradient blobs -->
+  <circle cx="200" cy="150" r="250" fill="#22d3ee" opacity="0.08" filter="url(#blur-l)"/>
+  <circle cx="600" cy="100" r="200" fill="#0e7490" opacity="0.05" filter="url(#blur-l)"/>
+  <circle cx="1000" cy="200" r="220" fill="#22d3ee" opacity="0.07" filter="url(#blur-l)"/>
+
+  <!-- Subtle grid -->
+  <pattern id="grid-l" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0e7490" stroke-opacity="0.05" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1200" height="300" fill="url(#grid-l)"/>
+
+  <!-- Logo circle -->
+  <circle cx="530" cy="150" r="32" stroke="#0e7490" stroke-width="2" stroke-opacity="0.4"/>
+  <defs>
+    <radialGradient id="logoGrad-l" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </radialGradient>
+    <filter id="blur-l">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+  </defs>
+  <circle cx="530" cy="150" r="21" fill="url(#logoGrad-l)"/>
+  <circle cx="530" cy="150" r="11" stroke="#0e7490" stroke-width="0.7" stroke-opacity="0.2" fill="none"/>
+  <circle cx="525" cy="145" r="4.5" fill="white" opacity="0.7"/>
+
+  <!-- Text -->
+  <text x="575" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#0f172a" letter-spacing="-0.5">PeekAPI</text>
+</svg>
