@@ -32,6 +32,7 @@ PeekAPI captures HTTP request metadata from your API — method, path, status, l
 | **Ruby** | [`sdk-ruby`](https://github.com/peekapi-dev/sdk-ruby) | Rack · Rails |
 | **PHP** | [`sdk-php`](https://github.com/peekapi-dev/sdk-php) | PSR-15 · Laravel |
 | **Java** | [`sdk-java`](https://github.com/peekapi-dev/sdk-java) | Spring Boot · Jakarta Servlet |
+| **Dart** | [`sdk-dart`](https://github.com/peekapi-dev/sdk-dart) | Shelf |
 
 Every SDK is **zero-dependency** — standard library only.
 
@@ -58,7 +59,7 @@ handler := peekapi.Middleware(client)(mux)
 ### Why PeekAPI?
 
 - **2 minutes to integrate** — no agents, no sidecars, no config files
-- **7 languages, 18+ frameworks** — same dashboard, any stack
+- **8 languages, 19+ frameworks** — same dashboard, any stack
 - **Zero runtime deps** — every SDK uses only the standard library
 - **Real-time** — live request stream, not batch analytics
 - **Smart alerts** — error rate, latency spikes, usage anomalies, inactivity
