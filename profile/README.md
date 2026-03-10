@@ -17,6 +17,12 @@
 
 ---
 
+<p align="center">
+  <a href="https://youtu.be/b3fj4ABuMWw">
+    <img src="https://img.youtube.com/vi/b3fj4ABuMWw/maxresdefault.jpg" alt="PeekAPI Demo" width="720">
+  </a>
+</p>
+
 ### What is PeekAPI?
 
 PeekAPI captures HTTP request metadata from your API — method, path, status, latency, consumer — and turns it into a real-time analytics dashboard with smart alerting. Add one line of middleware, get instant visibility.
